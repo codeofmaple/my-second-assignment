@@ -6,11 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faugei | Flower Market</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="bg-[#F5F8FF]">
+    <header class="max-width">
+        <!-- phone header -->
+        <div class="phone-header md:hidden flex justify-between items-center  font-semibold text-[1.07rem] mb-3 pt-5  pb-[18px]">
+            <p class="time px-[51px] font-inter">9:41</p>
+            <div class="phone-right-icons px-8">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full"></i>
+            </div>
+        </div>
 
+
+        <!-- nav section -->
+        <nav class="nav-section md:mt-[30px] flex justify-between items-center md:mx-auto mx-4">
+            <div class="nav-logo"><img src="./assets/logo.png" alt="Faugei logo"
+                    class="md:size-[100%] h-[38px] w-[63px] "></div>
+            <div class="nav-bar flex gap-12">
+                <div class="nav-items hidden md:flex gap-12">
+                    <li><a href="" class="nav-link text-[#252432] font-bold">Home</a></li>
+                    <li><a href="" class="nav-link text-gray-500">Shop</a></li>
+                    <li><a href="" class="nav-link text-gray-500">About us</a></li>
+                </div>
+                <a href="#">
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="font-inter text-black ml-2.5 font-normal inline">Cart ($56)</p>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>

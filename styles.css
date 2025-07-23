@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* sharded style */
+.max-width{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* header section */
+/* nav section */
+.nav-bar {
+
+    list-style: none;
+}
+
+/* media query section */
+/* smartphone section */
+@media screen and (max-width: 576px) {
+    .nav-link{
+        display: none;
+    }
+}
