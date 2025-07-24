@@ -52,6 +52,21 @@
     font-weight: 600;
 }
 
+
+/* lover section */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } 
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin{
+    animation: spin 15s linear infinite;
+}
+
 /* media query section */
 /* smartphone section */
 @media screen and (max-width: 576px) {
