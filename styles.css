@@ -17,14 +17,17 @@
     font-variation-settings:
         "wdth" 100;
 }
+
 /* sharded style */
 .max-width {
     max-width: 85%;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.max-display-width{
+
+.max-display-width {
     max-width: 1440px;
 }
+
 /* banner section */
 .description {
     font-family: "Inter", sans-serif;
@@ -47,5 +50,13 @@
 @media screen and (max-width: 576px) {
     .nav-link {
         display: none;
+    }
+
+    .description {
+        font-size: 0.875rem;
+    }
+    .banner-title{
+        padding-top: 28px;
+        padding-bottom: 13px;
     }
 }
