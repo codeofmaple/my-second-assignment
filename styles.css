@@ -1,31 +1,39 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
-.font-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .font-noto-serif {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-
-
-
 /* sharded style */
-.max-width{
-    max-width: 1140px;
-    margin: auto;
+.max-width {
+    max-width: 85%;
+    margin:0 auto;
 }
+.max-display-width{
+    max-width: 1440px;
+}
+/* banner section */
+.description {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
 
 /* header section */
 /* nav section */
@@ -37,7 +45,7 @@
 /* media query section */
 /* smartphone section */
 @media screen and (max-width: 576px) {
-    .nav-link{
+    .nav-link {
         display: none;
     }
 }
