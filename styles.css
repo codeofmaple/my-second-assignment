@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -54,40 +53,7 @@
 }
 
 /* latest deal section */
-/* .offer-img{
-    height: 100%;
-    width: 100%;
-} */
-.discount-imgs {
-    height: 423.13px;
-    max-width: 85%;
 
-}
-
-.offer-img {
-    width: 100%;
-}
-
-
-/* latest deals section */
-
-.img-container {
-    grid-template-columns: 35% 65%;
-}
-
-.left-imgs {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.left-img {
-    border-radius: 14px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .img-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("./assets/deal-bloom.png");
