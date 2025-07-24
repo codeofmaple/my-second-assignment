@@ -5,14 +5,12 @@
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
 }
 
 .font-noto-serif {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -44,6 +42,15 @@
 
     list-style: none;
 }
+/* main part */
+/* plants section */
+.card-btn{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 600;
+}
 
 /* media query section */
 /* smartphone section */
@@ -53,7 +60,8 @@
     }
 
     .description {
-        font-size: 0.875rem;
+        /* font-size: 0.875rem; */
+        font-size: 14px;
     }
     .banner-title{
         padding-top: 28px;
