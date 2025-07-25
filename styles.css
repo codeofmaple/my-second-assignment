@@ -25,11 +25,14 @@
     max-width: 1440px;
 }
 
-/* banner section */
 .description {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-description {
+    font-family: "Inter", sans-serif;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -75,7 +78,10 @@
     justify-content: center;
     align-items: center;
 }
-
+/* footer section */
+.footer-nav{
+    color: rgb(107, 114, 128);
+}
 
 /* media query section */
 /* smartphone section */
