@@ -72,10 +72,6 @@
 .card-btn:active {
     transform: translateY(0.5px);
 }
-.card-btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 5px rgba(255, 107, 53, 0.3);
-  }
 
 
 /* latest deal section */
@@ -108,10 +104,9 @@
 .subscribe-btn:hover{
     scale: 1.03;
 }
-/* footer section */
 
-/* media query section */
-/* smartphone section */
+/* media query*/
+/* smartphone devices */
 @media screen and (max-width: 576px) {
     .nav-link {
         display: none;
