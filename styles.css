@@ -44,6 +44,13 @@
 
     list-style: none;
 }
+.nav-bar a{
+    transition: border 0.03s ease;
+}
+.nav-bar a:active{
+    border-bottom: 1px solid #E95A08;
+}
+
 
 /* main part */
 /* plants section */
