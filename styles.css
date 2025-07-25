@@ -53,7 +53,23 @@
     background-color: #E95A08;
     color: #FFFFFF;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
+
+.card-btn:hover {
+    background-color: #E55000;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    scale: 1.03;
+}
+.card-btn:active {
+    transform: translateY(0.5px);
+}
+.card-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(255, 107, 53, 0.3);
+  }
+
 
 /* latest deal section */
 
@@ -77,6 +93,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+/* join section */
+.subscribe-btn{
+    transition: all 0.3s ease;
+}
+.subscribe-btn:hover{
+    scale: 1.03;
 }
 /* footer section */
 
